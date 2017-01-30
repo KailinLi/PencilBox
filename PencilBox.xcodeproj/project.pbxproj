@@ -1,0 +1,686 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00385BC0E0B8EC97DFC30C93 /* libPods-PencilBox.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A57DCAFCA4872D921DD09CFB /* libPods-PencilBox.a */; };
+		DE4504D41E32FBEB006A586B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4504D31E32FBEB006A586B /* main.m */; };
+		DE4504D71E32FBEB006A586B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4504D61E32FBEB006A586B /* AppDelegate.m */; };
+		DE4504E01E32FBEB006A586B /* PencilBox.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DE4504DE1E32FBEB006A586B /* PencilBox.xcdatamodeld */; };
+		DE4504E21E32FBEB006A586B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE4504E11E32FBEB006A586B /* Assets.xcassets */; };
+		DE4504ED1E32FC1F006A586B /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE4504EC1E32FC1F006A586B /* Launch Screen.storyboard */; };
+		DE45052B1E32FD19006A586B /* CusNav.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4504F91E32FD19006A586B /* CusNav.m */; };
+		DE45052C1E32FD19006A586B /* DJCameraManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4504FC1E32FD19006A586B /* DJCameraManager.m */; };
+		DE45052D1E32FD19006A586B /* UIButton+DJBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4504FE1E32FD19006A586B /* UIButton+DJBlock.m */; };
+		DE45052E1E32FD19006A586B /* UIImage+DJResize.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4505001E32FD19006A586B /* UIImage+DJResize.m */; };
+		DE45052F1E32FD19006A586B /* DJCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4505021E32FD19006A586B /* DJCameraViewController.m */; };
+		DE4505301E32FD19006A586B /* camera_line.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4505041E32FD19006A586B /* camera_line.png */; };
+		DE4505311E32FD19006A586B /* camera_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4505051E32FD19006A586B /* camera_line@2x.png */; };
+		DE4505321E32FD19006A586B /* camera_line_h.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4505061E32FD19006A586B /* camera_line_h.png */; };
+		DE4505331E32FD19006A586B /* camera_line_h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4505071E32FD19006A586B /* camera_line_h@2x.png */; };
+		DE4505341E32FD19006A586B /* close_cha.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4505081E32FD19006A586B /* close_cha.png */; };
+		DE4505351E32FD19006A586B /* close_cha@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4505091E32FD19006A586B /* close_cha@2x.png */; };
+		DE4505361E32FD19006A586B /* close_cha_h.png in Resources */ = {isa = PBXBuildFile; fileRef = DE45050A1E32FD19006A586B /* close_cha_h.png */; };
+		DE4505371E32FD19006A586B /* close_cha_h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE45050B1E32FD19006A586B /* close_cha_h@2x.png */; };
+		DE4505381E32FD19006A586B /* face@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE45050C1E32FD19006A586B /* face@2x.png */; };
+		DE4505391E32FD19006A586B /* face@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE45050D1E32FD19006A586B /* face@3x.png */; };
+		DE45053A1E32FD19006A586B /* flashing_auto.png in Resources */ = {isa = PBXBuildFile; fileRef = DE45050E1E32FD19006A586B /* flashing_auto.png */; };
+		DE45053B1E32FD19006A586B /* flashing_auto@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE45050F1E32FD19006A586B /* flashing_auto@2x.png */; };
+		DE45053C1E32FD19006A586B /* flashing_off.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4505101E32FD19006A586B /* flashing_off.png */; };
+		DE45053D1E32FD19006A586B /* flashing_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4505111E32FD19006A586B /* flashing_off@2x.png */; };
+		DE45053E1E32FD19006A586B /* flashing_on.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4505121E32FD19006A586B /* flashing_on.png */; };
+		DE45053F1E32FD19006A586B /* flashing_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4505131E32FD19006A586B /* flashing_on@2x.png */; };
+		DE4505401E32FD19006A586B /* iconfont-lianxiren@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4505141E32FD19006A586B /* iconfont-lianxiren@2x.png */; };
+		DE4505411E32FD19006A586B /* shot.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4505151E32FD19006A586B /* shot.png */; };
+		DE4505421E32FD19006A586B /* shot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4505161E32FD19006A586B /* shot@2x.png */; };
+		DE4505431E32FD19006A586B /* shot_h.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4505171E32FD19006A586B /* shot_h.png */; };
+		DE4505441E32FD19006A586B /* shot_h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4505181E32FD19006A586B /* shot_h@2x.png */; };
+		DE4505451E32FD19006A586B /* switch_camera.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4505191E32FD19006A586B /* switch_camera.png */; };
+		DE4505461E32FD19006A586B /* switch_camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE45051A1E32FD19006A586B /* switch_camera@2x.png */; };
+		DE4505471E32FD19006A586B /* switch_camera_h.png in Resources */ = {isa = PBXBuildFile; fileRef = DE45051B1E32FD19006A586B /* switch_camera_h.png */; };
+		DE4505481E32FD19006A586B /* switch_camera_h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE45051C1E32FD19006A586B /* switch_camera_h@2x.png */; };
+		DE4505491E32FD19006A586B /* touch_focus.png in Resources */ = {isa = PBXBuildFile; fileRef = DE45051D1E32FD19006A586B /* touch_focus.png */; };
+		DE45054A1E32FD19006A586B /* touch_focus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE45051E1E32FD19006A586B /* touch_focus@2x.png */; };
+		DE45054B1E32FD19006A586B /* touch_focus_x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE45051F1E32FD19006A586B /* touch_focus_x.png */; };
+		DE45054C1E32FD19006A586B /* touch_focus_x@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4505201E32FD19006A586B /* touch_focus_x@2x.png */; };
+		DE45054F1E32FD19006A586B /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4505241E32FD19006A586B /* PhotoViewController.m */; };
+		DE4505531E32FDA6006A586B /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4505521E32FDA6006A586B /* RootViewController.m */; };
+		DE4505561E330153006A586B /* PencilViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4505551E330153006A586B /* PencilViewController.m */; };
+		DE45055C1E330265006A586B /* PaintStep.m in Sources */ = {isa = PBXBuildFile; fileRef = DE45055B1E330265006A586B /* PaintStep.m */; };
+		DE45055F1E3302D6006A586B /* PencilPaint.m in Sources */ = {isa = PBXBuildFile; fileRef = DE45055E1E3302D6006A586B /* PencilPaint.m */; };
+		DE4505651E330BFC006A586B /* BubberPaint.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4505641E330BFC006A586B /* BubberPaint.m */; };
+		DE4505681E330C14006A586B /* RubberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4505671E330C13006A586B /* RubberViewController.m */; };
+		DE45059B1E331350006A586B /* RubberSelectColor.m in Sources */ = {isa = PBXBuildFile; fileRef = DE45059A1E331350006A586B /* RubberSelectColor.m */; };
+		DE71ED5C1E33831100347B99 /* RuleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE71ED5B1E33831100347B99 /* RuleViewController.m */; };
+		DE71ED5E1E33831600347B99 /* RuleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE71ED5D1E33831600347B99 /* RuleViewController.xib */; };
+		DE71ED611E33832400347B99 /* RuleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DE71ED601E33832400347B99 /* RuleTableViewCell.m */; };
+		DE71ED631E33832900347B99 /* RuleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE71ED621E33832900347B99 /* RuleTableViewCell.xib */; };
+		DE71ED661E33833600347B99 /* RuleTableViewCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DE71ED651E33833600347B99 /* RuleTableViewCellModel.m */; };
+		DE71EE4A1E33C73400347B99 /* CompareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE71EE491E33C73400347B99 /* CompareViewController.m */; };
+		DEE7F1251E33144A00271E50 /* UIView+ColorOfPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE7F1241E33144A00271E50 /* UIView+ColorOfPoint.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		284682119ED1BEC490FF0611 /* Pods-PencilBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PencilBox.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PencilBox/Pods-PencilBox.debug.xcconfig"; sourceTree = "<group>"; };
+		318A795F92B2C401E178D7DB /* Pods-PencilBox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PencilBox.release.xcconfig"; path = "Pods/Target Support Files/Pods-PencilBox/Pods-PencilBox.release.xcconfig"; sourceTree = "<group>"; };
+		A57DCAFCA4872D921DD09CFB /* libPods-PencilBox.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PencilBox.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE4504CF1E32FBEB006A586B /* PencilBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PencilBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE4504D31E32FBEB006A586B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE4504D51E32FBEB006A586B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DE4504D61E32FBEB006A586B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DE4504DF1E32FBEB006A586B /* PencilBox.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PencilBox.xcdatamodel; sourceTree = "<group>"; };
+		DE4504E11E32FBEB006A586B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE4504E61E32FBEB006A586B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE4504EC1E32FC1F006A586B /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		DE4504F81E32FD19006A586B /* CusNav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CusNav.h; sourceTree = "<group>"; };
+		DE4504F91E32FD19006A586B /* CusNav.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CusNav.m; sourceTree = "<group>"; };
+		DE4504FB1E32FD19006A586B /* DJCameraManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJCameraManager.h; sourceTree = "<group>"; };
+		DE4504FC1E32FD19006A586B /* DJCameraManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJCameraManager.m; sourceTree = "<group>"; };
+		DE4504FD1E32FD19006A586B /* UIButton+DJBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+DJBlock.h"; sourceTree = "<group>"; };
+		DE4504FE1E32FD19006A586B /* UIButton+DJBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+DJBlock.m"; sourceTree = "<group>"; };
+		DE4504FF1E32FD19006A586B /* UIImage+DJResize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+DJResize.h"; sourceTree = "<group>"; };
+		DE4505001E32FD19006A586B /* UIImage+DJResize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DJResize.m"; sourceTree = "<group>"; };
+		DE4505011E32FD19006A586B /* DJCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJCameraViewController.h; sourceTree = "<group>"; };
+		DE4505021E32FD19006A586B /* DJCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJCameraViewController.m; sourceTree = "<group>"; };
+		DE4505041E32FD19006A586B /* camera_line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera_line.png; sourceTree = "<group>"; };
+		DE4505051E32FD19006A586B /* camera_line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera_line@2x.png"; sourceTree = "<group>"; };
+		DE4505061E32FD19006A586B /* camera_line_h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera_line_h.png; sourceTree = "<group>"; };
+		DE4505071E32FD19006A586B /* camera_line_h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera_line_h@2x.png"; sourceTree = "<group>"; };
+		DE4505081E32FD19006A586B /* close_cha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close_cha.png; sourceTree = "<group>"; };
+		DE4505091E32FD19006A586B /* close_cha@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close_cha@2x.png"; sourceTree = "<group>"; };
+		DE45050A1E32FD19006A586B /* close_cha_h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close_cha_h.png; sourceTree = "<group>"; };
+		DE45050B1E32FD19006A586B /* close_cha_h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close_cha_h@2x.png"; sourceTree = "<group>"; };
+		DE45050C1E32FD19006A586B /* face@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "face@2x.png"; sourceTree = "<group>"; };
+		DE45050D1E32FD19006A586B /* face@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "face@3x.png"; sourceTree = "<group>"; };
+		DE45050E1E32FD19006A586B /* flashing_auto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flashing_auto.png; sourceTree = "<group>"; };
+		DE45050F1E32FD19006A586B /* flashing_auto@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flashing_auto@2x.png"; sourceTree = "<group>"; };
+		DE4505101E32FD19006A586B /* flashing_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flashing_off.png; sourceTree = "<group>"; };
+		DE4505111E32FD19006A586B /* flashing_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flashing_off@2x.png"; sourceTree = "<group>"; };
+		DE4505121E32FD19006A586B /* flashing_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flashing_on.png; sourceTree = "<group>"; };
+		DE4505131E32FD19006A586B /* flashing_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flashing_on@2x.png"; sourceTree = "<group>"; };
+		DE4505141E32FD19006A586B /* iconfont-lianxiren@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-lianxiren@2x.png"; sourceTree = "<group>"; };
+		DE4505151E32FD19006A586B /* shot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shot.png; sourceTree = "<group>"; };
+		DE4505161E32FD19006A586B /* shot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shot@2x.png"; sourceTree = "<group>"; };
+		DE4505171E32FD19006A586B /* shot_h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shot_h.png; sourceTree = "<group>"; };
+		DE4505181E32FD19006A586B /* shot_h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shot_h@2x.png"; sourceTree = "<group>"; };
+		DE4505191E32FD19006A586B /* switch_camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = switch_camera.png; sourceTree = "<group>"; };
+		DE45051A1E32FD19006A586B /* switch_camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "switch_camera@2x.png"; sourceTree = "<group>"; };
+		DE45051B1E32FD19006A586B /* switch_camera_h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = switch_camera_h.png; sourceTree = "<group>"; };
+		DE45051C1E32FD19006A586B /* switch_camera_h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "switch_camera_h@2x.png"; sourceTree = "<group>"; };
+		DE45051D1E32FD19006A586B /* touch_focus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = touch_focus.png; sourceTree = "<group>"; };
+		DE45051E1E32FD19006A586B /* touch_focus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "touch_focus@2x.png"; sourceTree = "<group>"; };
+		DE45051F1E32FD19006A586B /* touch_focus_x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = touch_focus_x.png; sourceTree = "<group>"; };
+		DE4505201E32FD19006A586B /* touch_focus_x@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "touch_focus_x@2x.png"; sourceTree = "<group>"; };
+		DE4505231E32FD19006A586B /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhotoViewController.h; path = ../Camera/PhotoViewController.h; sourceTree = "<group>"; };
+		DE4505241E32FD19006A586B /* PhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhotoViewController.m; path = ../Camera/PhotoViewController.m; sourceTree = "<group>"; };
+		DE4505511E32FDA6006A586B /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		DE4505521E32FDA6006A586B /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		DE4505541E330153006A586B /* PencilViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PencilViewController.h; sourceTree = "<group>"; };
+		DE4505551E330153006A586B /* PencilViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PencilViewController.m; sourceTree = "<group>"; };
+		DE45055A1E330265006A586B /* PaintStep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaintStep.h; sourceTree = "<group>"; };
+		DE45055B1E330265006A586B /* PaintStep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaintStep.m; sourceTree = "<group>"; };
+		DE45055D1E3302D6006A586B /* PencilPaint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PencilPaint.h; sourceTree = "<group>"; };
+		DE45055E1E3302D6006A586B /* PencilPaint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PencilPaint.m; sourceTree = "<group>"; };
+		DE4505631E330BFB006A586B /* BubberPaint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BubberPaint.h; sourceTree = "<group>"; };
+		DE4505641E330BFC006A586B /* BubberPaint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BubberPaint.m; sourceTree = "<group>"; };
+		DE4505661E330C13006A586B /* RubberViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RubberViewController.h; sourceTree = "<group>"; };
+		DE4505671E330C13006A586B /* RubberViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RubberViewController.m; sourceTree = "<group>"; };
+		DE4505991E331350006A586B /* RubberSelectColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RubberSelectColor.h; sourceTree = "<group>"; };
+		DE45059A1E331350006A586B /* RubberSelectColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RubberSelectColor.m; sourceTree = "<group>"; };
+		DE71ED551E3382E500347B99 /* RuleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuleViewController.h; sourceTree = "<group>"; };
+		DE71ED5B1E33831100347B99 /* RuleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuleViewController.m; sourceTree = "<group>"; };
+		DE71ED5D1E33831600347B99 /* RuleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RuleViewController.xib; sourceTree = "<group>"; };
+		DE71ED5F1E33831F00347B99 /* RuleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuleTableViewCell.h; sourceTree = "<group>"; };
+		DE71ED601E33832400347B99 /* RuleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuleTableViewCell.m; sourceTree = "<group>"; };
+		DE71ED621E33832900347B99 /* RuleTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RuleTableViewCell.xib; sourceTree = "<group>"; };
+		DE71ED641E33833000347B99 /* RuleTableViewCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuleTableViewCellModel.h; sourceTree = "<group>"; };
+		DE71ED651E33833600347B99 /* RuleTableViewCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuleTableViewCellModel.m; sourceTree = "<group>"; };
+		DE71EE481E33C73400347B99 /* CompareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompareViewController.h; sourceTree = "<group>"; };
+		DE71EE491E33C73400347B99 /* CompareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompareViewController.m; sourceTree = "<group>"; };
+		DEE7F1231E33144A00271E50 /* UIView+ColorOfPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ColorOfPoint.h"; sourceTree = "<group>"; };
+		DEE7F1241E33144A00271E50 /* UIView+ColorOfPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ColorOfPoint.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE4504CC1E32FBEB006A586B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00385BC0E0B8EC97DFC30C93 /* libPods-PencilBox.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABA4F2B5EABD60B55E13D986 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A57DCAFCA4872D921DD09CFB /* libPods-PencilBox.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE4504C61E32FBEB006A586B = {
+			isa = PBXGroup;
+			children = (
+				DE4504EC1E32FC1F006A586B /* Launch Screen.storyboard */,
+				DE4504D11E32FBEB006A586B /* PencilBox */,
+				DE4504D01E32FBEB006A586B /* Products */,
+				F0551AAF387E921C3B0CFF01 /* Pods */,
+				ABA4F2B5EABD60B55E13D986 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DE4504D01E32FBEB006A586B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE4504CF1E32FBEB006A586B /* PencilBox.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE4504D11E32FBEB006A586B /* PencilBox */ = {
+			isa = PBXGroup;
+			children = (
+				DE71EE471E33C6F600347B99 /* Upload */,
+				DE4504D51E32FBEB006A586B /* AppDelegate.h */,
+				DE4504D61E32FBEB006A586B /* AppDelegate.m */,
+				DE4505511E32FDA6006A586B /* RootViewController.h */,
+				DE4505521E32FDA6006A586B /* RootViewController.m */,
+				DE4504E61E32FBEB006A586B /* Info.plist */,
+				DE4504E11E32FBEB006A586B /* Assets.xcassets */,
+				DE4504F01E32FD19006A586B /* Camera */,
+				DE4505601E3304A4006A586B /* Model */,
+				DE71ED541E3382AC00347B99 /* Ruler */,
+				DE4505621E330B9D006A586B /* Rubber */,
+				DE4505611E3304CE006A586B /* Pencil */,
+				DE4504D21E32FBEB006A586B /* Supporting Files */,
+			);
+			path = PencilBox;
+			sourceTree = "<group>";
+		};
+		DE4504D21E32FBEB006A586B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE4504DE1E32FBEB006A586B /* PencilBox.xcdatamodeld */,
+				DE4504D31E32FBEB006A586B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE4504F01E32FD19006A586B /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				DE4504F81E32FD19006A586B /* CusNav.h */,
+				DE4504F91E32FD19006A586B /* CusNav.m */,
+				DE4504FA1E32FD19006A586B /* DJCameraManager */,
+				DE4505011E32FD19006A586B /* DJCameraViewController.h */,
+				DE4505021E32FD19006A586B /* DJCameraViewController.m */,
+				DE4505031E32FD19006A586B /* img */,
+			);
+			name = Camera;
+			path = ../Camera;
+			sourceTree = "<group>";
+		};
+		DE4504FA1E32FD19006A586B /* DJCameraManager */ = {
+			isa = PBXGroup;
+			children = (
+				DE4504FB1E32FD19006A586B /* DJCameraManager.h */,
+				DE4504FC1E32FD19006A586B /* DJCameraManager.m */,
+				DE4504FD1E32FD19006A586B /* UIButton+DJBlock.h */,
+				DE4504FE1E32FD19006A586B /* UIButton+DJBlock.m */,
+				DE4504FF1E32FD19006A586B /* UIImage+DJResize.h */,
+				DE4505001E32FD19006A586B /* UIImage+DJResize.m */,
+			);
+			path = DJCameraManager;
+			sourceTree = "<group>";
+		};
+		DE4505031E32FD19006A586B /* img */ = {
+			isa = PBXGroup;
+			children = (
+				DE4505041E32FD19006A586B /* camera_line.png */,
+				DE4505051E32FD19006A586B /* camera_line@2x.png */,
+				DE4505061E32FD19006A586B /* camera_line_h.png */,
+				DE4505071E32FD19006A586B /* camera_line_h@2x.png */,
+				DE4505081E32FD19006A586B /* close_cha.png */,
+				DE4505091E32FD19006A586B /* close_cha@2x.png */,
+				DE45050A1E32FD19006A586B /* close_cha_h.png */,
+				DE45050B1E32FD19006A586B /* close_cha_h@2x.png */,
+				DE45050C1E32FD19006A586B /* face@2x.png */,
+				DE45050D1E32FD19006A586B /* face@3x.png */,
+				DE45050E1E32FD19006A586B /* flashing_auto.png */,
+				DE45050F1E32FD19006A586B /* flashing_auto@2x.png */,
+				DE4505101E32FD19006A586B /* flashing_off.png */,
+				DE4505111E32FD19006A586B /* flashing_off@2x.png */,
+				DE4505121E32FD19006A586B /* flashing_on.png */,
+				DE4505131E32FD19006A586B /* flashing_on@2x.png */,
+				DE4505141E32FD19006A586B /* iconfont-lianxiren@2x.png */,
+				DE4505151E32FD19006A586B /* shot.png */,
+				DE4505161E32FD19006A586B /* shot@2x.png */,
+				DE4505171E32FD19006A586B /* shot_h.png */,
+				DE4505181E32FD19006A586B /* shot_h@2x.png */,
+				DE4505191E32FD19006A586B /* switch_camera.png */,
+				DE45051A1E32FD19006A586B /* switch_camera@2x.png */,
+				DE45051B1E32FD19006A586B /* switch_camera_h.png */,
+				DE45051C1E32FD19006A586B /* switch_camera_h@2x.png */,
+				DE45051D1E32FD19006A586B /* touch_focus.png */,
+				DE45051E1E32FD19006A586B /* touch_focus@2x.png */,
+				DE45051F1E32FD19006A586B /* touch_focus_x.png */,
+				DE4505201E32FD19006A586B /* touch_focus_x@2x.png */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
+		DE4505601E3304A4006A586B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DEE7F1231E33144A00271E50 /* UIView+ColorOfPoint.h */,
+				DEE7F1241E33144A00271E50 /* UIView+ColorOfPoint.m */,
+				DE45055A1E330265006A586B /* PaintStep.h */,
+				DE45055B1E330265006A586B /* PaintStep.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		DE4505611E3304CE006A586B /* Pencil */ = {
+			isa = PBXGroup;
+			children = (
+				DE4505541E330153006A586B /* PencilViewController.h */,
+				DE4505551E330153006A586B /* PencilViewController.m */,
+				DE45055D1E3302D6006A586B /* PencilPaint.h */,
+				DE45055E1E3302D6006A586B /* PencilPaint.m */,
+			);
+			name = Pencil;
+			sourceTree = "<group>";
+		};
+		DE4505621E330B9D006A586B /* Rubber */ = {
+			isa = PBXGroup;
+			children = (
+				DE4505631E330BFB006A586B /* BubberPaint.h */,
+				DE4505641E330BFC006A586B /* BubberPaint.m */,
+				DE4505661E330C13006A586B /* RubberViewController.h */,
+				DE4505671E330C13006A586B /* RubberViewController.m */,
+				DE4505991E331350006A586B /* RubberSelectColor.h */,
+				DE45059A1E331350006A586B /* RubberSelectColor.m */,
+			);
+			name = Rubber;
+			sourceTree = "<group>";
+		};
+		DE71ED541E3382AC00347B99 /* Ruler */ = {
+			isa = PBXGroup;
+			children = (
+				DE71ED651E33833600347B99 /* RuleTableViewCellModel.m */,
+				DE71ED641E33833000347B99 /* RuleTableViewCellModel.h */,
+				DE71ED621E33832900347B99 /* RuleTableViewCell.xib */,
+				DE71ED601E33832400347B99 /* RuleTableViewCell.m */,
+				DE71ED5F1E33831F00347B99 /* RuleTableViewCell.h */,
+				DE71ED5D1E33831600347B99 /* RuleViewController.xib */,
+				DE71ED5B1E33831100347B99 /* RuleViewController.m */,
+				DE71ED551E3382E500347B99 /* RuleViewController.h */,
+			);
+			name = Ruler;
+			sourceTree = "<group>";
+		};
+		DE71EE471E33C6F600347B99 /* Upload */ = {
+			isa = PBXGroup;
+			children = (
+				DE4505231E32FD19006A586B /* PhotoViewController.h */,
+				DE4505241E32FD19006A586B /* PhotoViewController.m */,
+				DE71EE481E33C73400347B99 /* CompareViewController.h */,
+				DE71EE491E33C73400347B99 /* CompareViewController.m */,
+			);
+			name = Upload;
+			sourceTree = "<group>";
+		};
+		F0551AAF387E921C3B0CFF01 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				284682119ED1BEC490FF0611 /* Pods-PencilBox.debug.xcconfig */,
+				318A795F92B2C401E178D7DB /* Pods-PencilBox.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE4504CE1E32FBEB006A586B /* PencilBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE4504E91E32FBEB006A586B /* Build configuration list for PBXNativeTarget "PencilBox" */;
+			buildPhases = (
+				401752B7519909ED1F487A84 /* [CP] Check Pods Manifest.lock */,
+				DE4504CB1E32FBEB006A586B /* Sources */,
+				DE4504CC1E32FBEB006A586B /* Frameworks */,
+				DE4504CD1E32FBEB006A586B /* Resources */,
+				623CA10AEB051651EA86AC45 /* [CP] Embed Pods Frameworks */,
+				7BF1CD21110560C51D1CE9C9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PencilBox;
+			productName = PencilBox;
+			productReference = DE4504CF1E32FBEB006A586B /* PencilBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE4504C71E32FBEB006A586B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "李恺林";
+				TargetAttributes = {
+					DE4504CE1E32FBEB006A586B = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 4A6WKDWV93;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DE4504CA1E32FBEB006A586B /* Build configuration list for PBXProject "PencilBox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE4504C61E32FBEB006A586B;
+			productRefGroup = DE4504D01E32FBEB006A586B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE4504CE1E32FBEB006A586B /* PencilBox */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE4504CD1E32FBEB006A586B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE45054C1E32FD19006A586B /* touch_focus_x@2x.png in Resources */,
+				DE4505451E32FD19006A586B /* switch_camera.png in Resources */,
+				DE4504ED1E32FC1F006A586B /* Launch Screen.storyboard in Resources */,
+				DE4505401E32FD19006A586B /* iconfont-lianxiren@2x.png in Resources */,
+				DE4505491E32FD19006A586B /* touch_focus.png in Resources */,
+				DE4505361E32FD19006A586B /* close_cha_h.png in Resources */,
+				DE4505311E32FD19006A586B /* camera_line@2x.png in Resources */,
+				DE4505431E32FD19006A586B /* shot_h.png in Resources */,
+				DE4505411E32FD19006A586B /* shot.png in Resources */,
+				DE4505421E32FD19006A586B /* shot@2x.png in Resources */,
+				DE4505321E32FD19006A586B /* camera_line_h.png in Resources */,
+				DE4505481E32FD19006A586B /* switch_camera_h@2x.png in Resources */,
+				DE4505331E32FD19006A586B /* camera_line_h@2x.png in Resources */,
+				DE45053F1E32FD19006A586B /* flashing_on@2x.png in Resources */,
+				DE45054B1E32FD19006A586B /* touch_focus_x.png in Resources */,
+				DE45053C1E32FD19006A586B /* flashing_off.png in Resources */,
+				DE45054A1E32FD19006A586B /* touch_focus@2x.png in Resources */,
+				DE45053A1E32FD19006A586B /* flashing_auto.png in Resources */,
+				DE4505341E32FD19006A586B /* close_cha.png in Resources */,
+				DE4505301E32FD19006A586B /* camera_line.png in Resources */,
+				DE4505351E32FD19006A586B /* close_cha@2x.png in Resources */,
+				DE4505461E32FD19006A586B /* switch_camera@2x.png in Resources */,
+				DE4505391E32FD19006A586B /* face@3x.png in Resources */,
+				DE45053E1E32FD19006A586B /* flashing_on.png in Resources */,
+				DE45053B1E32FD19006A586B /* flashing_auto@2x.png in Resources */,
+				DE4505441E32FD19006A586B /* shot_h@2x.png in Resources */,
+				DE71ED631E33832900347B99 /* RuleTableViewCell.xib in Resources */,
+				DE4505471E32FD19006A586B /* switch_camera_h.png in Resources */,
+				DE45053D1E32FD19006A586B /* flashing_off@2x.png in Resources */,
+				DE4505371E32FD19006A586B /* close_cha_h@2x.png in Resources */,
+				DE4504E21E32FBEB006A586B /* Assets.xcassets in Resources */,
+				DE71ED5E1E33831600347B99 /* RuleViewController.xib in Resources */,
+				DE4505381E32FD19006A586B /* face@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		401752B7519909ED1F487A84 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		623CA10AEB051651EA86AC45 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PencilBox/Pods-PencilBox-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BF1CD21110560C51D1CE9C9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PencilBox/Pods-PencilBox-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE4504CB1E32FBEB006A586B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEE7F1251E33144A00271E50 /* UIView+ColorOfPoint.m in Sources */,
+				DE45052E1E32FD19006A586B /* UIImage+DJResize.m in Sources */,
+				DE4504D71E32FBEB006A586B /* AppDelegate.m in Sources */,
+				DE4505681E330C14006A586B /* RubberViewController.m in Sources */,
+				DE45052F1E32FD19006A586B /* DJCameraViewController.m in Sources */,
+				DE71ED611E33832400347B99 /* RuleTableViewCell.m in Sources */,
+				DE71EE4A1E33C73400347B99 /* CompareViewController.m in Sources */,
+				DE45052B1E32FD19006A586B /* CusNav.m in Sources */,
+				DE71ED661E33833600347B99 /* RuleTableViewCellModel.m in Sources */,
+				DE45055C1E330265006A586B /* PaintStep.m in Sources */,
+				DE4504E01E32FBEB006A586B /* PencilBox.xcdatamodeld in Sources */,
+				DE45052D1E32FD19006A586B /* UIButton+DJBlock.m in Sources */,
+				DE4505561E330153006A586B /* PencilViewController.m in Sources */,
+				DE4505531E32FDA6006A586B /* RootViewController.m in Sources */,
+				DE45052C1E32FD19006A586B /* DJCameraManager.m in Sources */,
+				DE45059B1E331350006A586B /* RubberSelectColor.m in Sources */,
+				DE71ED5C1E33831100347B99 /* RuleViewController.m in Sources */,
+				DE45055F1E3302D6006A586B /* PencilPaint.m in Sources */,
+				DE45054F1E32FD19006A586B /* PhotoViewController.m in Sources */,
+				DE4505651E330BFC006A586B /* BubberPaint.m in Sources */,
+				DE4504D41E32FBEB006A586B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DE4504E71E32FBEB006A586B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE4504E81E32FBEB006A586B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE4504EA1E32FBEB006A586B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 284682119ED1BEC490FF0611 /* Pods-PencilBox.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4A6WKDWV93;
+				INFOPLIST_FILE = PencilBox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SiZhe.PencilBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DE4504EB1E32FBEB006A586B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 318A795F92B2C401E178D7DB /* Pods-PencilBox.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4A6WKDWV93;
+				INFOPLIST_FILE = PencilBox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SiZhe.PencilBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE4504CA1E32FBEB006A586B /* Build configuration list for PBXProject "PencilBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE4504E71E32FBEB006A586B /* Debug */,
+				DE4504E81E32FBEB006A586B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE4504E91E32FBEB006A586B /* Build configuration list for PBXNativeTarget "PencilBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE4504EA1E32FBEB006A586B /* Debug */,
+				DE4504EB1E32FBEB006A586B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DE4504DE1E32FBEB006A586B /* PencilBox.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DE4504DF1E32FBEB006A586B /* PencilBox.xcdatamodel */,
+			);
+			currentVersion = DE4504DF1E32FBEB006A586B /* PencilBox.xcdatamodel */;
+			path = PencilBox.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DE4504C71E32FBEB006A586B /* Project object */;
+}
